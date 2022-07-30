@@ -1,0 +1,143 @@
+.firstWrapper {
+    background-image: url('../assets/bg-large.jpg');
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 70.5vh;
+    width: 100%;
+
+    display: inline-block;
+
+    box-shadow: inset 0 0 100rem #000;
+
+    button {
+        padding: 1rem 2rem;
+        font-size: 1.6rem;
+        color: var(--white);
+        background-color: var(--red);
+        border-radius: 0.2rem;
+    
+        border: 0.5px solid red;
+    
+        cursor: pointer;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin: 2rem 4.5rem;
+        height: 3rem;
+    
+        img {
+            height: 2.5rem;
+        }
+    
+        button {
+            display: flex;
+            align-items: flex-start;
+            padding: 0.5rem 1.6rem;
+            
+            background-color: var(--red);
+            border: none;
+            border-radius: 3px;
+            color: var(--white);
+            font-weight: 400;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+    }
+
+    .mainText {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 10rem;
+        
+        color: var(--white);
+    
+        h1 {
+            font-size: 2.9rem;
+        }
+    
+        p {
+            font-size: 1.6rem;
+    
+            margin-top: 1rem;
+        }
+    }
+
+    .inputText {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 2rem;
+    
+        color: var(--white);
+    
+        font-size: 1.1rem;
+    }
+
+    .inputAndButton {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+
+    input {
+        background-color: var(--white);
+        width: 40vh;
+        height: 1.8rem;
+        font-size: 1rem;
+        border: 0.5px solid rgb(115, 115, 115);
+        border-radius: 0.2rem;
+        padding: 1rem;
+        }
+}
+
+
+
+.secondWrapper {
+    background-color: #000;
+    height: 24.5rem;
+    margin-top: 0.5rem;
+
+    color: var(--white);
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    .section01Texts {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 2.7rem;
+
+        h2 {
+            font-size: 3.2rem;
+            margin-bottom: 0.8rem;
+        }
+
+        p {
+            font-size: 1.7rem;
+        }
+    }
+
+    .TV {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img{
+            height: 19rem;
+        }
+    }
+
+}
+
+
