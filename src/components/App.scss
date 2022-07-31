@@ -9,7 +9,7 @@
 
     display: inline-block;
 
-    box-shadow: inset 0 0 100rem #000;
+    box-shadow:inset 0 0 0 150vw rgba(0,0,0,0.5);
 
     button {
         padding: 1rem 2rem;
@@ -117,14 +117,15 @@
         flex-direction: column;
         justify-content: center;
         margin-left: 2.7rem;
+        margin-right: 2.7rem;
 
         h2 {
-            font-size: 3.2rem;
+            font-size: 3.1rem;
             margin-bottom: 0.8rem;
         }
 
         p {
-            font-size: 1.7rem;
+            font-size: 1.5rem;
         }
     }
 

@@ -10,11 +10,8 @@ export function Section(props: any) {
       <>
         <div className="secondWrapper">
           <div className="section01Texts">
-            <h2>Aproveite na TV.</h2>
-            <p>
-              Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
-              aparelhos de Blu-ray e outros dispositivos.
-            </p>
+            <h2>{props.h2}</h2>
+            <p>{props.p}</p>
           </div>
           <div className="TV">
             <img src={props.img} />
@@ -30,11 +27,8 @@ export function Section(props: any) {
             <img src={props.img} alt="" />
           </div>
           <div className="section01Texts">
-            <h2>Aproveite na TV.</h2>
-            <p>
-              Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
-              aparelhos de Blu-ray e outros dispositivos.
-            </p>
+            <h2>{props.h2}</h2>
+            <p>{props.p}</p>
           </div>
         </div>
       </>
